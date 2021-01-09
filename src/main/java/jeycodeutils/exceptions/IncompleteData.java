@@ -12,34 +12,35 @@ package jeycodeutils.exceptions;
 public class IncompleteData extends RuntimeException
 {
 
-						/**
-						 * All these constants must be completed with specific information.
-						 */
-						final public static String DEFAULT = "Incomplete Data!";
-						final public static String PARAMETER = "The parameter must be completed correctly!, its value can't be null";
-						final public static String COPY = "The parameter to copy can't be null";
+      /**
+       * All these constants must be completed with specific information.
+       */
+      final public static String DEFAULT = "Incomplete Data!";
+      final public static String PARAMETER = "The parameter must be completed correctly!, its value can't be null";
+      final public static String COPY = "The parameter to copy can't be null";
 
-						/**
-						 * 
-						 */
-						private static final long serialVersionUID = 192696163562983640L;
+      /**
+       * 
+       */
+      private static final long serialVersionUID = 192696163562983640L;
 
-						/**
-						 * Builder
-						 *
-						 */
-						public IncompleteData()
-						{
-												super();
-						}
+      /**
+       * Builder
+       *
+       */
+      public IncompleteData()
+      {
+            super();
+      }
 
-						/**
-						 * Builder
-						 *
-						 * @param message
-						 */
-						public IncompleteData(final String message)
-						{
-												super(message);
-						}
+      /**
+       * Builder
+       *
+       * @param message
+       */
+      public IncompleteData(final String message)
+      {
+            super(message);
+      }
+
 }

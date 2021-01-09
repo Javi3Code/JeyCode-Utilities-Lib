@@ -12,40 +12,40 @@ package jeycodeutils.exceptions;
 public final class ClonableException extends RuntimeException
 {
 
-						/**
-						 * 
-						 */
-						private static final long serialVersionUID = 421760521744541449L;
+      /**
+       * 
+       */
+      private static final long serialVersionUID = 421760521744541449L;
 
-						/**
-						 * Builder
-						 *
-						 */
-						public ClonableException()
-						{
-												super();
-						}
+      /**
+       * Builder
+       *
+       */
+      public ClonableException()
+      {
+            super();
+      }
 
-						/**
-						 * Builder
-						 *
-						 * @param message
-						 */
-						public ClonableException(final String message)
-						{
-												super(message);
-						}
+      /**
+       * Builder
+       *
+       * @param message
+       */
+      public ClonableException(final String message)
+      {
+            super(message);
+      }
 
-						protected Integer version;
+      protected Integer version;
 
-						public Integer getVersion()
-						{
-												return version;
-						}
+      public Integer getVersion()
+      {
+            return version;
+      }
 
-						public void setVersion(final Integer version)
-						{
-												this.version = version;
-						}
+      public void setVersion(final Integer version)
+      {
+            this.version = version;
+      }
 
 }

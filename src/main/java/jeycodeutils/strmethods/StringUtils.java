@@ -24,7 +24,7 @@ public final class StringUtils
 																																					.replace("Ú","U").replace("ú","u");
 												return modificable;
 						}   
- 
+   
 						public static String getWithProperNomFormatThis(final String token) 
 						{
 												return token.toUpperCase().charAt(0) + token.substring(1,token.length()).toLowerCase();
