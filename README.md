@@ -1,2 +1,10 @@
 # JeyCodeJavaLib
-Libraries that I was making when I started programming, and I modify from time to time
+
+Librerías que hice al comenzar a programar, y que sigo modificando, de vez en cuando.
+
+#JeyCodeUtilitiesLib
+
+En esta librería se agrupan diferentes utilidades.
+
+
+
