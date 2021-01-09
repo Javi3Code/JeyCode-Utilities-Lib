@@ -32,7 +32,8 @@ public final class LoadImage
 												try
 												{
 																		sprite[i] = ImageIO.read(new File(path[i]));
-												} catch (final IOException e)
+												}
+												catch (final IOException e)
 												{
 																		throw new JPAOMRuntimeException("Fatal error reading the ImageIO,verify the image or the path.");
 												}

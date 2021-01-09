@@ -10,6 +10,6 @@ public class FilePersistenceException extends RuntimeException
 						public FilePersistenceException(String errorMessage)
 						{
 												super(errorMessage);
-						} 
+						}
 
 }

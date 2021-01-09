@@ -22,17 +22,21 @@ public final class Heap
 
 						public static void heapHistory()
 						{
-												final var name = ManagementFactory.getRuntimeMXBean().getName();
+												final var name = ManagementFactory.getRuntimeMXBean()
+																																														.getName();
 												final var PID = name.substring(0,name.indexOf("@"));
 												try
 												{
-																		final var process = Runtime.getRuntime().exec("jcmd " + PID + " GC.class_histogram");
+																		final var process = Runtime.getRuntime()
+																																													.exec("jcmd " + PID + " GC.class_histogram");
 																		try (var binput = new BufferedReader(new InputStreamReader(process.getInputStream())))
 																		{
-																								binput.lines().forEach(System.out::println);
+																								binput.lines()
+																														.forEach(System.out::println);
 																								binput.close();
 																		}
-												} catch (final IOException e1)
+												}
+												catch (final IOException e1)
 												{
 																		// TODO Auto-generated catch block
 																		e1.printStackTrace();
@@ -42,17 +46,22 @@ public final class Heap
 
 						public static void heapHistory(final int limit)
 						{
-												final var name = ManagementFactory.getRuntimeMXBean().getName();
+												final var name = ManagementFactory.getRuntimeMXBean()
+																																														.getName();
 												final var PID = name.substring(0,name.indexOf("@"));
 												try
 												{
-																		final var process = Runtime.getRuntime().exec("jcmd " + PID + " GC.class_histogram");
+																		final var process = Runtime.getRuntime()
+																																													.exec("jcmd " + PID + " GC.class_histogram");
 																		try (var binput = new BufferedReader(new InputStreamReader(process.getInputStream())))
 																		{
-																								binput.lines().limit(limit).forEach(System.out::println);
+																								binput.lines()
+																														.limit(limit)
+																														.forEach(System.out::println);
 																								binput.close();
 																		}
-												} catch (final IOException e1)
+												}
+												catch (final IOException e1)
 												{
 																		// TODO Auto-generated catch block
 																		e1.printStackTrace();

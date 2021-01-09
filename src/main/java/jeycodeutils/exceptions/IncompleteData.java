@@ -9,7 +9,8 @@ package jeycodeutils.exceptions;
  *         24 jun. 2020
  *
  */
-public class IncompleteData extends RuntimeException {
+public class IncompleteData extends RuntimeException
+{
 
 						/**
 						 * All these constants must be completed with specific information.
@@ -27,12 +28,18 @@ public class IncompleteData extends RuntimeException {
 						 * Builder
 						 *
 						 */
-						public IncompleteData() { super(); }
+						public IncompleteData()
+						{
+												super();
+						}
 
 						/**
 						 * Builder
 						 *
 						 * @param message
 						 */
-						public IncompleteData(final String message) { super(message); }
+						public IncompleteData(final String message)
+						{
+												super(message);
+						}
 }

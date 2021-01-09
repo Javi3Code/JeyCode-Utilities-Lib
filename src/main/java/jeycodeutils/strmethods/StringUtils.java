@@ -11,10 +11,10 @@ import java.util.StringTokenizer;
 public final class StringUtils
 {
 
-						private StringUtils()
-						{}
+      private StringUtils()
+      {}
 
-			// @formatter:off
+ // @formatter:off
 						public static String removeTildes(String modificable) 
 						{
 												modificable = modificable.replace("Á","A").replace("á","a")
@@ -23,8 +23,8 @@ public final class StringUtils
 																																					.replace("Ó","O").replace("ó","o")
 																																					.replace("Ú","U").replace("ú","u");
 												return modificable;
-						}  
-
+						}   
+ 
 						public static String getWithProperNomFormatThis(final String token) 
 						{
 												return token.toUpperCase().charAt(0) + token.substring(1,token.length()).toLowerCase();

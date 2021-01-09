@@ -11,18 +11,19 @@ import java.util.Collection;
  *         31 jul. 2020
  *
  */
-public interface PatternDAO<K,T> {
+public interface PatternDAO<K,T>
+{
 
-						void daoInsert(T object);
+      void daoInsert(T object);
 
-						void daoInsertAll(Collection<T> list);
+      void daoInsertAll(Collection<T> list);
 
-						T daoGet(K id);
+      T daoGet(K id);
 
-						Collection<T> daoGetAll();
+      Collection<T> daoGetAll();
 
-						void daoUpdate(T object);
+      void daoUpdate(T object);
 
-						void daoDelete(T object);
+      void daoDelete(T object);
 
 }

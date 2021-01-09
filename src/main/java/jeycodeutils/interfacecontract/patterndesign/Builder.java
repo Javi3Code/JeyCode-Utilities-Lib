@@ -10,7 +10,8 @@ package jeycodeutils.interfacecontract.patterndesign;
  *
  */
 @FunctionalInterface
-public interface Builder<T> {
+public interface Builder<T>
+{
 
 						T build();
 }

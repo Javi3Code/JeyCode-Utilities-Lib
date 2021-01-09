@@ -3,15 +3,14 @@
  */
 package jeycodeutils.exceptions;
 
-
-
 /**
  * @author Javier Pérez Alonso
  *
  *         31 may. 2020
  *
  */
-public final class ClonableException extends RuntimeException {
+public final class ClonableException extends RuntimeException
+{
 
 						/**
 						 * 
@@ -22,20 +21,31 @@ public final class ClonableException extends RuntimeException {
 						 * Builder
 						 *
 						 */
-						public ClonableException() {super();}
+						public ClonableException()
+						{
+												super();
+						}
 
 						/**
 						 * Builder
 						 *
 						 * @param message
 						 */
-						public ClonableException(final String message) { super(message); }
+						public ClonableException(final String message)
+						{
+												super(message);
+						}
 
 						protected Integer version;
 
-						public Integer getVersion() { return version; }
+						public Integer getVersion()
+						{
+												return version;
+						}
 
-						public void setVersion(final Integer version) { this.version = version; }
-
+						public void setVersion(final Integer version)
+						{
+												this.version = version;
+						}
 
 }

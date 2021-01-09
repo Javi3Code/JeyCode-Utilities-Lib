@@ -9,7 +9,8 @@ package jeycodeutils.exceptions;
  *         19 jul. 2020
  *
  */
-public class JPAOMRuntimeException extends RuntimeException {
+public class JPAOMRuntimeException extends RuntimeException
+{
 
 						/**
 						 * 
@@ -20,8 +21,14 @@ public class JPAOMRuntimeException extends RuntimeException {
 						 * Builder
 						 *
 						 */
-						public JPAOMRuntimeException() { super(); }
+						public JPAOMRuntimeException()
+						{
+												super();
+						}
 
-						public JPAOMRuntimeException(final String message) { super(message); }
+						public JPAOMRuntimeException(final String message)
+						{
+												super(message);
+						}
 
 }
