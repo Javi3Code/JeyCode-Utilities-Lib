@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 import java.lang.management.ManagementFactory;
 
 /**
- * @author Javier P�rez Alonso
+ * @author Javier Pérez Alonso
  *
  *         28 jun. 2020
  *
