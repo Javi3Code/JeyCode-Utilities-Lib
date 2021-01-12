@@ -8,6 +8,10 @@ En esta librería se agrupan diferentes utilidades, métodos staticos para traba
 
 Esta librería la utilizo en alguno de mis proyectos de prueba.
 
+# Tareas Pendientes
+
+Documentación
+
 # Packages/class
 
   src/main/java/jeycodeutils
