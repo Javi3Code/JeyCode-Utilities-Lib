@@ -1,18 +1,14 @@
-# JeyCode Java Lib
-
-Librerías que hice al comenzar a programar, y que sigo modificando, de vez en cuando.
-
 # JeyCode Utilities Lib
 
 En esta librería se agrupan diferentes utilidades, métodos staticos para trabajar con las operaciones intermedias de los Stream, métodos para cargar arrays de BufferedImage, excepciones, constantes, y otros métodos.
 
-Esta librería la utilizo en alguno de mis proyectos de prueba.
+La utilizo en alguno de mis proyectos de prueba.
 
-# Tareas Pendientes
+## Tareas Pendientes
 
-Documentación
+- Documentación
 
-# Packages/class
+## Packages/class
 
   src/main/java/jeycodeutils
   
