@@ -4,6 +4,11 @@ En esta librería se agrupan diferentes utilidades, métodos staticos para traba
 
 La utilizo en alguno de mis proyectos de prueba.
 
+## Tecnologías Utilizadas
+
+- JDK 11
+- Maven
+
 ## Tareas Pendientes
 
 - Documentación
